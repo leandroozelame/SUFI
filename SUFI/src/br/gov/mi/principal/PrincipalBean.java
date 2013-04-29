@@ -1,8 +1,7 @@
 package br.gov.mi.principal;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
 
 public class PrincipalBean extends Activity {
 
@@ -10,12 +9,6 @@ public class PrincipalBean extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.principal);
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {		
-		getMenuInflater().inflate(R.menu.principal, menu);
-		return true;
-	}
+	}	
 
 }
