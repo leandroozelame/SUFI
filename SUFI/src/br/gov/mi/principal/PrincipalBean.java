@@ -13,8 +13,7 @@ public class PrincipalBean extends Activity {
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
+	public boolean onCreateOptionsMenu(Menu menu) {		
 		getMenuInflater().inflate(R.menu.principal, menu);
 		return true;
 	}
