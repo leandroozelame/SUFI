@@ -8,7 +8,7 @@ public class AutenticarBean extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.principal);
+		setContentView(R.layout.autenticar);
 	}
 
 }
